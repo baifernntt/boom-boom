@@ -52,7 +52,7 @@ class Blueball(object):
 		self.x = -1000
 
 	def update(self):
-		self.x -= 7
+		self.x -= 4
 
 	def isCollide(self):
 		if (self.x <=100  and self.x+self.radius*2 >=100) or (self.x <=47  and self.x+self.radius*2 >=47):
